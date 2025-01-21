@@ -746,3 +746,47 @@ header {
     height: 90vmax;
   }
 }
+
+/* Resume Section Styling */
+.resume-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f9fa; /* Light background for contrast */
+  color: #333;
+}
+
+.resume-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50; /* Dark text color */
+}
+
+.resume-viewer {
+  width: 80%; /* Responsive width */
+  height: 600px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-download-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #007BFF; /* Bootstrap blue color */
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.resume-download-btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px); /* Slight lift effect */
+}
